@@ -19,17 +19,19 @@ var boxElement = document.querySelectorAll('.box');
 
 for (var i = 0; i < boxElement.length; i++) {
     var boxElement = boxElement[i];
+    // within each click event...
+    // determine which box was clicked with 'this.textContent' or event.target.textContent
+    // convert that value to a Number and store it to a variable
     boxElement.onclick = function(event) {
         var boxClick = Number(event.target.textContent);
         console.log(parseInt(boxClick, 10))
     };
 }
 
-// within each click event...
-// determine which box was clicked with 'this.textContent' or event.target.textContent
-// convert that value to a Number and store it to a variable
 
 // create a random number between 1-3 and store it to a variable
+var randomNum = Math.floor((Math.random() * 3) + 1);
+
 // This number will represent the winning box
 
 // determine if the box clicked is equal to the random number
