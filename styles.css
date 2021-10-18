@@ -60,6 +60,7 @@ main {
 .boxes {
   display: flex;
   flex-flow: column nowrap;
+  margin: 10px auto;
 }
 
 .box {
@@ -67,7 +68,7 @@ main {
   border-radius: 5px;
   box-shadow: 7px 7px 15px gray;
   font-size: 4rem;
-  margin: 10px auto;
+  margin: 8px auto;
   padding: 20px 50px;
 }
 
