@@ -32,13 +32,12 @@ header {
   background-color: #6003c3;
   padding: 10px;
   text-align: center;
-  width: 100%;
 }
 
 h1 {
   color: white;
   font-size: 4rem;
-  width: 90%;
+  margin: 0 auto;
 }
 
 /*--======== Body ========--*/
